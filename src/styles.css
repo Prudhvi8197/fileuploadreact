@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-content: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  place-content: center;
+  justify-items: center;
+}
+
+.progress-stat {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-details {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  justify-items: spa;
+  background-color: rgb(75, 177, 240);
+}
+
+.header > h1 {
+  width: calc(100vw - 90px);
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+.desc {
+  height: 20px;
+  text-align: center;
+  background-color: rgb(175, 175, 77);
+}
+.button:hover {
+  background-color: green;
+  color: white;
+  width: 125px;
+  height: 35px;
+  margin: 0 auto;
+}
+input:hover {
+  width: 250px;
+  height: 35px;
+  margin: 0 auto;
+}
+.uploading-stat {
+  height: 90%;
+  width: 90;
+}
+.queue-stat,
+.completion-stat,
+.uploading-stat {
+  height: fit-content;
+  background-color: rgb(224, 188, 121);
+}
+.queue-stat {
+  background-color: rgb(226, 96, 96);
+}
+
+.completion-stat {
+  background-color: rgb(119, 185, 119);
+}
